@@ -123,13 +123,11 @@
 		3A5C86D618128FD600D6A8AA /* MacApp */ = {
 			isa = PBXGroup;
 			children = (
+				3A5C870E181292B000D6A8AA /* Classes */,
 				3A5C870A1812910100D6A8AA /* Cores */,
 				3A5C86E218128FD600D6A8AA /* MAppDelegate.h */,
 				3A5C86E318128FD600D6A8AA /* MAppDelegate.m */,
 				3A5C86E518128FD600D6A8AA /* MainMenu.xib */,
-				3A5C870418128FF800D6A8AA /* MMainWindowController.xib */,
-				3A5C87061812905800D6A8AA /* MMainWindowController.h */,
-				3A5C87071812905800D6A8AA /* MMainWindowController.m */,
 				3A5C86E818128FD600D6A8AA /* Images.xcassets */,
 				3A5C86D718128FD600D6A8AA /* Supporting Files */,
 			);
@@ -173,6 +171,16 @@
 				3A5C870C1812912000D6A8AA /* MYWindowController.m */,
 			);
 			path = Cores;
+			sourceTree = "<group>";
+		};
+		3A5C870E181292B000D6A8AA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3A5C870418128FF800D6A8AA /* MMainWindowController.xib */,
+				3A5C87061812905800D6A8AA /* MMainWindowController.h */,
+				3A5C87071812905800D6A8AA /* MMainWindowController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -489,6 +497,7 @@
 				3A5C870018128FD600D6A8AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A5C870118128FD600D6A8AA /* Build configuration list for PBXNativeTarget "MacAppTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +506,7 @@
 				3A5C870318128FD600D6A8AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
