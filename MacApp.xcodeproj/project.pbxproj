@@ -18,6 +18,9 @@
 		3A5C86F118128FD600D6A8AA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5C86D018128FD600D6A8AA /* Cocoa.framework */; };
 		3A5C86F918128FD600D6A8AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A5C86F718128FD600D6A8AA /* InfoPlist.strings */; };
 		3A5C86FB18128FD600D6A8AA /* MacAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C86FA18128FD600D6A8AA /* MacAppTests.m */; };
+		3A5C870518128FF800D6A8AA /* MMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A5C870418128FF800D6A8AA /* MMainWindowController.xib */; };
+		3A5C87081812905800D6A8AA /* MMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C87071812905800D6A8AA /* MMainWindowController.m */; };
+		3A5C870D1812912000D6A8AA /* MYWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5C870C1812912000D6A8AA /* MYWindowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,11 @@
 		3A5C86F618128FD600D6A8AA /* MacAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacAppTests-Info.plist"; sourceTree = "<group>"; };
 		3A5C86F818128FD600D6A8AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3A5C86FA18128FD600D6A8AA /* MacAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacAppTests.m; sourceTree = "<group>"; };
+		3A5C870418128FF800D6A8AA /* MMainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMainWindowController.xib; sourceTree = "<group>"; };
+		3A5C87061812905800D6A8AA /* MMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMainWindowController.h; sourceTree = "<group>"; };
+		3A5C87071812905800D6A8AA /* MMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMainWindowController.m; sourceTree = "<group>"; };
+		3A5C870B1812912000D6A8AA /* MYWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYWindowController.h; sourceTree = "<group>"; };
+		3A5C870C1812912000D6A8AA /* MYWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYWindowController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +123,13 @@
 		3A5C86D618128FD600D6A8AA /* MacApp */ = {
 			isa = PBXGroup;
 			children = (
+				3A5C870A1812910100D6A8AA /* Cores */,
 				3A5C86E218128FD600D6A8AA /* MAppDelegate.h */,
 				3A5C86E318128FD600D6A8AA /* MAppDelegate.m */,
 				3A5C86E518128FD600D6A8AA /* MainMenu.xib */,
+				3A5C870418128FF800D6A8AA /* MMainWindowController.xib */,
+				3A5C87061812905800D6A8AA /* MMainWindowController.h */,
+				3A5C87071812905800D6A8AA /* MMainWindowController.m */,
 				3A5C86E818128FD600D6A8AA /* Images.xcassets */,
 				3A5C86D718128FD600D6A8AA /* Supporting Files */,
 			);
@@ -152,6 +164,15 @@
 				3A5C86F718128FD600D6A8AA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A5C870A1812910100D6A8AA /* Cores */ = {
+			isa = PBXGroup;
+			children = (
+				3A5C870B1812912000D6A8AA /* MYWindowController.h */,
+				3A5C870C1812912000D6A8AA /* MYWindowController.m */,
+			);
+			path = Cores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A5C86DB18128FD600D6A8AA /* InfoPlist.strings in Resources */,
+				3A5C870518128FF800D6A8AA /* MMainWindowController.xib in Resources */,
 				3A5C86E918128FD600D6A8AA /* Images.xcassets in Resources */,
 				3A5C86E118128FD600D6A8AA /* Credits.rtf in Resources */,
 				3A5C86E718128FD600D6A8AA /* MainMenu.xib in Resources */,
@@ -253,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5C87081812905800D6A8AA /* MMainWindowController.m in Sources */,
+				3A5C870D1812912000D6A8AA /* MYWindowController.m in Sources */,
 				3A5C86E418128FD600D6A8AA /* MAppDelegate.m in Sources */,
 				3A5C86DD18128FD600D6A8AA /* main.m in Sources */,
 			);

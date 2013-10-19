@@ -7,12 +7,14 @@
 //
 
 #import "MAppDelegate.h"
-
+#import "MMainWindowController.h"
 @implementation MAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    self.mainWindowController = [MMainWindowController instantiateWindowController];
+    [self.mainWindowController showWindow:self];
 }
 
 @end
